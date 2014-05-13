@@ -316,8 +316,6 @@
     
     for (UIImageView *img in _leakImageViews)
         [img removeFromSuperview];
-    
-    self.map = nil;
 }
- 
+
 @end

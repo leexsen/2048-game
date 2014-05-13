@@ -102,9 +102,4 @@
     }];
 }
 
-- (void)dealloc
-{
-    self.image = nil;
-}
-
 @end
